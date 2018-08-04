@@ -1,0 +1,29 @@
+.skills-section{
+	margin: 0 auto;
+    background-color:$lightpink;
+    opacity:0.7;
+    padding: 60px;
+    h2{
+    	font-size: 40px;
+	    color: $white;
+	    text-transform: capitalize;
+	    letter-spacing: 1px;
+	    margin-bottom: 20px;
+	    margin-top: 0;
+    }
+	.skills-container{
+		display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    align-items: center;
+	    overflow-x: auto;
+	    flex-wrap:wrap;
+		img{
+			max-width:70px;
+			max-height:100px;
+			&.skills-shopify{
+				max-width:130px;
+			}
+		}
+	}
+}
