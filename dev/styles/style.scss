@@ -1,0 +1,131 @@
+@import 'partials/setup';
+@import 'partials/variables';
+@import 'partials/header';
+@import 'partials/about';
+@import 'partials/tools_skills';
+@import 'partials/portfolio';
+@import 'partials/contact';
+@import 'partials/footer';
+
+
+//general styles
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	background-color: #feffff;
+}
+
+.wrapper {
+	max-width: 920px;
+	margin: 0 auto;
+}
+
+.wrapper2 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #37474f;
+	text-align: center;
+	font-size: 25px;
+}
+
+.fa {
+	transition: color 0.9s ease;
+}
+
+.fa-twitter:hover {
+	color: #1da1f2;
+}
+
+.fa-linkedin:hover {
+	color: #0177b5;
+}
+
+.fa-medium:hover {
+	color: #a6a8ab;
+}
+
+.fa-github:hover {
+	color: #24292e;
+}
+
+//media queries
+
+@media (max-width: 990px) {
+	.about {
+		justify-content: flex-start;
+		flex-direction: column;
+		align-items: center;
+		.aboutContainer {
+			max-width: 100%;
+		}
+		h2 {
+			margin-top: 20px;
+		}
+	}
+	.imageContainer, .textContainer {
+		width: 100%;
+	}
+	.portfolioItem {
+		flex-wrap: wrap;
+		margin: 40px;
+	}
+	div.textContainer2, div.textContainer3 {
+		order: 2;
+	}
+	.form1, .form2, .form3 {
+		flex-wrap: wrap;
+	}
+	.nameForm, .numberForm, .emailForm {
+		width: 100%;
+	}
+	input[type=text] {
+		width: 70%;
+	}
+	input[type=submit] {
+		width: 70%;
+	}
+}
+
+@media (max-width: 800px) {
+	.headerMyInfo h1, .headerMyInfo p, header button {
+		margin-left: 20px;
+	}
+
+	.flower {
+		display: none;
+	}
+
+	.skills {
+		width: 33.3%;
+	}
+}
+
+@media (max-width: 570px) {
+
+	.headerMyInfo {
+		padding-left: 0;
+	}
+
+	.aboutContainer {
+		padding: 0 20px;
+	}
+
+	.about img {
+		margin: 0;
+		padding: 10px;
+	}
+
+	div.skills {
+		width: 50%;
+	}
+}
+ 
+
+
+
+
+

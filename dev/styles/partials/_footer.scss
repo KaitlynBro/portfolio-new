@@ -1,0 +1,29 @@
+footer {
+    padding-top: 95px;
+    background-color: #f9fafc;
+    margin-top: 130px;
+    a {
+        color: #4dd9c9;
+        text-decoration: none; 
+    }
+}
+
+.socialIcons {
+	display: flex;
+    justify-content: center;
+    .footerIcon {
+    	margin-right: 20px;
+    	margin-bottom: 90px;
+    	font-size: 20px;
+    	color: $primaryColor;
+    }
+}
+
+.headshotCredit {
+    color: #777777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
