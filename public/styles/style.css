@@ -155,7 +155,7 @@ header {
     header .header-text h1 {
       font-size: 50px; }
     header .header-text h2 {
-      font-size: 30px; }
+      font-size: 25px; }
     header .header-text button {
       margin-top: 20px; }
   header .scroll {
@@ -192,13 +192,37 @@ header {
     justify-content: center;
     align-items: center;
     margin: 5px 0; }
-    .header-social span img {
-      max-width: 15px;
-      width: 100%; }
+    .header-social span a {
+      display: flex;
+      align-items: center; }
+      .header-social span a img {
+        max-width: 15px;
+        width: 100%; }
+
+.about-section {
+  margin: 150px 0; }
+  .about-section .about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    .about-section .about-wrapper .about-image {
+      max-width: 45%;
+      padding-right: 20px;
+      border-right: 3px solid lightblue; }
+      .about-section .about-wrapper .about-image img {
+        max-width: 350px;
+        max-height: 350px; }
+    .about-section .about-wrapper .about-text {
+      max-width: 50%;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      border-top: 3px solid #e6c0aa; }
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  margin: 0 auto; }
 
 button {
   font-size: 18px;
