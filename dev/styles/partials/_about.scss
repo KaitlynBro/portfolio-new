@@ -1,6 +1,8 @@
 .about-section{
 	margin:150px 0;
-	display:none;
+	@media(max-width:590px){
+		margin:70px 0;
+	}
 	.about-wrapper{
 		display: flex;
 	    flex-direction: row;
@@ -12,6 +14,27 @@
 	    	img{
 	    		max-width:350px;
 	    		max-height:350px;
+	    		@media(max-width:590px){
+	    			max-width:400px;
+	    			opacity: 0.8;
+	    		}
+	    	}
+	    	.about-mobile{
+	    		display: none;
+	    		@media(max-width:590px){
+	    			display:block;
+	    		}
+	    	}
+	    	.about-desktop{
+	    		@media(max-width:590px){
+	    			display: none;
+	    		}
+	    	}
+	    	@media(max-width:590px){
+	    		max-width: 100%;
+	    		margin:auto;
+	    		border-right:none;
+	    		padding-right:0;
 	    	}
 	    }
 		.about-text{
@@ -20,6 +43,13 @@
 		    justify-content: center;
 		    align-self: center;
 		    border-top: 3px solid $lightpink;
+		}
+		@media(max-width:590px){
+			flex-direction:column;
+			.about-text{
+				max-width:80%;
+				margin: 0 auto;
+			}
 		}
 	}
 }

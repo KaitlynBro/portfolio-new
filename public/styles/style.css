@@ -236,8 +236,10 @@ header {
         margin: 0 5px; } }
 
 .about-section {
-  margin: 150px 0;
-  display: none; }
+  margin: 150px 0; }
+  @media (max-width: 590px) {
+    .about-section {
+      margin: 70px 0; } }
   .about-section .about-wrapper {
     display: flex;
     flex-direction: row;
@@ -249,17 +251,44 @@ header {
       .about-section .about-wrapper .about-image img {
         max-width: 350px;
         max-height: 350px; }
+        @media (max-width: 590px) {
+          .about-section .about-wrapper .about-image img {
+            max-width: 400px;
+            opacity: 0.8; } }
+      .about-section .about-wrapper .about-image .about-mobile {
+        display: none; }
+        @media (max-width: 590px) {
+          .about-section .about-wrapper .about-image .about-mobile {
+            display: block; } }
+      @media (max-width: 590px) {
+        .about-section .about-wrapper .about-image .about-desktop {
+          display: none; } }
+      @media (max-width: 590px) {
+        .about-section .about-wrapper .about-image {
+          max-width: 100%;
+          margin: auto;
+          border-right: none;
+          padding-right: 0; } }
     .about-section .about-wrapper .about-text {
       max-width: 50%;
       display: flex;
       justify-content: center;
       align-self: center;
       border-top: 3px solid #e6c0aa; }
+    @media (max-width: 590px) {
+      .about-section .about-wrapper {
+        flex-direction: column; }
+        .about-section .about-wrapper .about-text {
+          max-width: 80%;
+          margin: 0 auto; } }
 
 .skills-section {
   margin: 0 auto;
   background-color: #e6c0aa;
   padding: 60px; }
+  @media (max-width: 590px) {
+    .skills-section {
+      padding: 20px; } }
   .skills-section h2 {
     font-size: 40px;
     color: #fff;
@@ -267,6 +296,9 @@ header {
     letter-spacing: 1px;
     margin-bottom: 20px;
     margin-top: 0; }
+    @media (max-width: 590px) {
+      .skills-section h2 {
+        text-align: center; } }
   .skills-section .skills-container {
     display: flex;
     flex-direction: row;
@@ -281,6 +313,13 @@ header {
         max-width: 130px; }
       .skills-section .skills-container img:hover {
         opacity: 0.6; }
+      @media (max-width: 590px) {
+        .skills-section .skills-container img {
+          margin: 10px; } }
+    @media (max-width: 590px) {
+      .skills-section .skills-container {
+        width: 70%;
+        margin: 0 auto; } }
 
 .projects-section {
   margin: 150px 0; }
