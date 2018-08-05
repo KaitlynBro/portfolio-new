@@ -1,7 +1,6 @@
 .skills-section{
 	margin: 0 auto;
     background-color:$lightpink;
-    opacity:0.7;
     padding: 60px;
     h2{
     	font-size: 40px;
@@ -23,6 +22,9 @@
 			max-height:100px;
 			&.skills-shopify{
 				max-width:130px;
+			}
+			&:hover{
+				opacity: 0.6;
 			}
 		}
 	}

@@ -224,7 +224,6 @@ header {
 .skills-section {
   margin: 0 auto;
   background-color: #e6c0aa;
-  opacity: 0.7;
   padding: 60px; }
   .skills-section h2 {
     font-size: 40px;
@@ -245,6 +244,8 @@ header {
       max-height: 100px; }
       .skills-section .skills-container img.skills-shopify {
         max-width: 130px; }
+      .skills-section .skills-container img:hover {
+        opacity: 0.6; }
 
 .projects-section {
   margin: 150px 0; }
@@ -305,6 +306,23 @@ header {
         background-image: url("../../assets/makeup.jpg"); }
       .projects-section .projects-wrapper .projects-column .projects-techtalk {
         background-image: url("../../assets/techtalk.jpg"); }
+
+footer {
+  background-color: #e6c0aa;
+  padding: 40px; }
+  footer p, footer a {
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 30px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: crosshair;
+    transition: all 0.5s ease; }
+    footer p a:hover, footer a a:hover {
+      padding: 10px;
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff; }
 
 body {
   font-family: 'Poppins', sans-serif;
