@@ -65,9 +65,11 @@ header{
 	    justify-content: center;
 	    align-items: center;
 	    margin:5px 0;
+	    cursor:crosshair;
 	    a{
 	    	display:flex;
 	    	align-items:center;
+	    	cursor:crosshair;
 	    	img{
 	    		max-width:15px;
 	    		width:100%;

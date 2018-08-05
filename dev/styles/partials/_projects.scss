@@ -1,0 +1,78 @@
+.projects-section{
+	margin: 150px 0;
+	.projects-wrapper{
+		display: flex;
+		flex-direction: row;
+		 justify-content: center;
+		 .projects-column{
+		 	width: 30%;
+		 	display: flex;
+		 	flex-direction: column;
+		 	.projects{
+		 	    background-size: cover;
+		 	    background-position: center;
+		 	    min-height:300px;
+		 	    transition: all 1s ease;
+		 	    opacity: 0.7;
+    	 	    span{
+    	 	    	display: flex;
+     	    	    flex-direction: column;
+     	    	    justify-content: center;
+     	    	    align-items: center;
+     	    	    align-self: center;
+     	    	    margin-top: 130px;
+     	    	    transition:all 1s ease;
+     	    	    p{
+     	    	    	margin:0;
+     	    	    	font-size:25px;
+     	    	    	text-align:center;
+     	    	    	&.projects-small-font{
+     	    	    		font-size:20px;
+     	    	    		display:none;
+     	    	    	}
+     	    	    }
+     	    	    button{
+     	    	    	display:none;
+     	    	    	transition:all 1s ease;
+     	    	    }
+    	 	    }
+		 	    &:hover{
+		 	    	opacity:10;
+		 	    	span{
+		 	    		background-color: rgba(0, 0, 0, 0.5);
+		 	    		max-width: 90%;
+		 	    		margin:130px auto;
+		 	    	}
+		 	    	p{
+		 	    		color:$white;
+		 	    		&.projects-small-font{
+		 	    			display:block;
+		 	    		}
+		 	    	}
+		 	    	button{
+		 	    		display:block;
+		 	    		margin: 10px 0;
+		 	    	}
+		 	    }
+		 	}
+		 	.projects-mias{
+		 		background-image:url('../../assets/mias.jpg');
+		 	}
+		 	.projects-wardrobe{
+		 		background-image:url('../../assets/wardrobe.jpg');
+		 	}
+		 	.projects-wineoclock{
+		 		background-image:url('../../assets/wineoclock.jpg');
+		 	}
+		 	.projects-flexbox{
+		 		background-image:url('../../assets/flexbox.jpg');
+		 	}
+		 	.projects-makeup{
+		 		background-image:url('../../assets/makeup.jpg');
+		 	}
+		 	.projects-techtalk{
+		 		background-image:url('../../assets/techtalk.jpg');
+		 	}
+		 }
+	}
+}

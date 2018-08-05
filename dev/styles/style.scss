@@ -3,6 +3,7 @@
 @import 'partials/header';
 @import 'partials/about';
 @import 'partials/skills';
+@import 'partials/projects';
 
 
 // mixins
@@ -11,6 +12,7 @@
     background-color:$lightpink;
     border:3px solid$white;
     padding:5px 20px;
+    cursor:crosshair;
 }
 
 //general styles
