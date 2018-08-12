@@ -195,7 +195,7 @@ header {
       bottom: -23px; }
     @media (max-width: 480px) {
       header .scroll {
-        bottom: 100px; }
+        bottom: 140px; }
         header .scroll:after {
           right: -50px;
           width: 2px;
@@ -232,7 +232,7 @@ header {
       top: 30px;
       flex-direction: row; }
       .header-social span {
-        padding: 5px;
+        padding: 10px;
         margin: 0 5px; } }
 
 .about-section {
@@ -356,6 +356,8 @@ header {
           align-self: center;
           margin-top: 130px;
           transition: all 1s ease; }
+          .projects-section .projects-wrapper .projects-column .projects span a {
+            text-decoration: none; }
           .projects-section .projects-wrapper .projects-column .projects span p {
             margin: 0;
             font-size: 25px;

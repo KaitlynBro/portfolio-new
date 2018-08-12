@@ -67,7 +67,7 @@ header{
     	    bottom: -23px;
 	    }
 	    @media(max-width:480px){
-	    	bottom:100px;
+	    	bottom:140px;
 	    	&:after{
 	    		right: -50px;
     		    width: 2px;
@@ -109,7 +109,7 @@ header{
 	    top: 30px;
 	    flex-direction: row;
 	    span{
-	    	padding:5px;
+	    	padding:10px;
 	    	margin: 0 5px;
 	    }
 	}
