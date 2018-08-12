@@ -1,13 +1,25 @@
 .projects-section{
 	margin: 150px 0;
+	@media(max-width:1050px){
+		margin:70px 0;
+	}
 	.projects-wrapper{
 		display: flex;
 		flex-direction: row;
 		 justify-content: center;
-		 .projects-column{
+		 @media(max-width:590px){
+		 	flex-direction:column;
+		 }
+		.projects-column{
 		 	width: 30%;
 		 	display: flex;
 		 	flex-direction: column;
+		 	@media(max-width:1050px){
+		 		width:50%;
+		 	}
+		 	@media(max-width:590px){
+		 		width: 100%;
+		 	}
 		 	.projects{
 		 	    background-size: cover;
 		 	    background-position: center;
@@ -29,14 +41,37 @@
      	    	    	&.projects-small-font{
      	    	    		font-size:20px;
      	    	    		display:none;
+     	    	    		@media(max-width:590px){
+     	    	    			display:block;
+     	    	    		}
      	    	    	}
      	    	    }
      	    	    button{
      	    	    	display:none;
      	    	    	transition:all 1s ease;
+     	    	    	@media(max-width:590px){
+			 	    		display:block;
+			 	    		margin: 10px 0;
+     	    	    	}
      	    	    }
     	 	    }
 		 	    &:hover{
+		 	    	opacity:10;
+		 	    	span{
+		 	    		background-color: rgba(0, 0, 0, 0.5);
+		 	    	}
+		 	    	p{
+		 	    		color:$white;
+		 	    		&.projects-small-font{
+		 	    			display:block;
+		 	    		}
+		 	    	}
+		 	    	button{
+		 	    		display:block;
+		 	    		margin: 10px 0;
+		 	    	}
+		 	    }
+		 	    @media(max-width:590px){
 		 	    	opacity:10;
 		 	    	span{
 		 	    		background-color: rgba(0, 0, 0, 0.5);
@@ -48,10 +83,6 @@
 		 	    		&.projects-small-font{
 		 	    			display:block;
 		 	    		}
-		 	    	}
-		 	    	button{
-		 	    		display:block;
-		 	    		margin: 10px 0;
 		 	    	}
 		 	    }
 		 	}

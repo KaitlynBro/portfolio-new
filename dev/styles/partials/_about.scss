@@ -1,6 +1,6 @@
 .about-section{
 	margin:150px 0;
-	@media(max-width:590px){
+	@media(max-width:1024px){
 		margin:70px 0;
 	}
 	.about-wrapper{
@@ -23,6 +23,7 @@
 	    		display: none;
 	    		@media(max-width:590px){
 	    			display:block;
+	    			width:100%;
 	    		}
 	    	}
 	    	.about-desktop{
@@ -39,9 +40,9 @@
 	    }
 		.about-text{
 			max-width: 50%;
-		    display: flex;
-		    justify-content: center;
-		    align-self: center;
+		    // display: flex;
+		    // justify-content: center;
+		    // align-self: center;
 		    border-top: 3px solid $lightpink;
 		}
 		@media(max-width:590px){

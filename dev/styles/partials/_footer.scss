@@ -10,6 +10,9 @@ footer{
     	text-decoration:none;
     	cursor:crosshair;
     	transition:all 0.5s ease;
+        @media(max-width:590px){
+            word-spacing:0;
+        }
     	a:hover{
 			padding:10px;
 			border-top:2px solid $white;
