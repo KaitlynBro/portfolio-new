@@ -403,12 +403,12 @@ header {
         background-image: url("../../assets/wardrobe.jpg"); }
       .projects-section .projects-wrapper .projects-column .projects-wineoclock {
         background-image: url("../../assets/wineoclock.jpg"); }
-      .projects-section .projects-wrapper .projects-column .projects-flexbox {
-        background-image: url("../../assets/flexbox.jpg"); }
       .projects-section .projects-wrapper .projects-column .projects-makeup {
         background-image: url("../../assets/makeup.jpg"); }
       .projects-section .projects-wrapper .projects-column .projects-techtalk {
         background-image: url("../../assets/techtalk.jpg"); }
+      .projects-section .projects-wrapper .projects-column .projects-apollorenewables {
+        background-image: url("../../assets/apollo.jpg"); }
 
 footer {
   background-color: #e6c0aa;
